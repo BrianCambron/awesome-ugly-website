@@ -3,10 +3,63 @@
   <head>
     <meta charset="utf-8">
     <title>Brian's Ugly Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/main.css">
   </head>
-  <body>
+  <body id="body">
+<section class="container-1">
+  <!-- navbar -->
+  <a href="#">&#x2622;Ugly</a>
+  <a href="#">&#x2622;Uglier</a>
+  <a href="#">&#x2622;Ugliest</a>
+</section>
+<br>
+<section class= "container-2">
+  <h1>Does this hurt your eyes?</h1>
+  <button class="yesbtn">Yes?</button>
+  <button class="nobtn">No?</button>
+</section>
+<div class="sadness">
+  <img class="sadpepe"src="https://content.assets.pressassociation.io/2018/03/07093856/1cfc45a2-53e5-4f31-8f0b-446fefd5f08a.jpg" alt="crying pepe">
+  <p class="sadtext">&#x2639; When Pepe thinks about Javascript he gets sad.</p>
+</div>
+<br>
+<button class="happybtn" onclick="makeHappy()"> Click Me to make Pepe happy!</button>
+<section class="container-3">
+  <img class="pepe"src="https://wallpapercave.com/wp/wp2132650.png" alt="pepe is mad" onclick="changeImage()">
+  <p>Hi my name is Pepe!</p>
+</section>
+<div class="left-list">
+  <p> Here is a list of things Pepe likes:</p>
+    <ul>
+      <li>Eating</li>
+      <li>Sleeping</li>
+      <li>Coding</li>
+    </ul>
+</div>
+<section class="container-4">
+<div>
+  <label for="eating"> Do you like eating?</label>
+  <input type="checkbox" name="eating" value="">
+</div>
+<div>
+  <label for="sleeping"> Do you like sleeping?</label>
+  <input type="checkbox" name="sleeping" value="">
+</div>
+<div>
+  <label for="coding"> Do you like coding?</label>
+  <input type="checkbox" name="coding" value="">
+</div>
+</section>
+<div class="todo">
+ <h3>To Do List:</h3>
+  <ol>
+    <li>Cook&#10003;</li>
+    <li>Clean&#10003;</li>
+  </ol>
+
+</div>
 <script src="./scripts/main.js"></script>
   </body>
 </html>

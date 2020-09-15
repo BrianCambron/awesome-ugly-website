@@ -1,0 +1,74 @@
+.container-1 {
+  display: flex;
+  justify-content: space-around;
+}
+.container-1 a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #00FFFF;
+}
+#body{
+  background: rgb(240,254,43);
+  background: repeating-linear-gradient(yellow 20%, black 30%);
+}
+.container-1 a:hover{
+  color: #FF1493;
+  border-bottom: solid;
+  border-color: #0000FF;
+}
+.container-2{
+  text-align: center;
+  color: white;
+  font-family: 'Ranchers', cursive;
+}
+.yesbtn{
+  width: 80px;
+  height: 60px;
+}
+.nobtn{
+  width: 80px;
+  height: 60px;
+}
+.sadness{
+  display: flex;
+}
+.sadpepe{
+  width: 300px;
+  margin-left: 40px;
+}
+.sadtext{
+  font-size: 20px;
+  color: #9400D3;
+}
+.happybtn{
+  margin-left: 100px;
+  width: 150px;
+  height: 85px;
+}
+.pepe{
+  width: 200px;
+  margin-left: 40px;
+}
+.container-3{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 22px;
+  color: Red;
+  margin-right: 60px;
+}
+.left-list{
+  font-size: 22px;
+  margin-left: 40px;
+  color: red;
+}
+.container-4{
+  font-size: 20px;
+  color: blue;
+  text-align: right;
+  margin-right: 40px;
+}
+.todo{
+  color: pink;
+  font-size: 20px;
+  margin-left: 55px;
+}
